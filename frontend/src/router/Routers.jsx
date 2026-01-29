@@ -10,7 +10,7 @@ import AuthLayout from '../components/Layout/AuthLayout';
 import ServiceDetail from '../pages/ServiceDetail';
 import Booking from '../pages/Booking';
 import Service from '../pages/Services';
-import Demo from '../pages/demo';
+import Demo from '../pages/Demo';
 import ThankYou from '../pages/ThankYou';
 
 
