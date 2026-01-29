@@ -56,7 +56,7 @@ const ServiceRequest = () => {
       return;
     }
     // Here you can handle the form submission, e.g., send data to a server
-    const apiUrl = "http://localhost:5000/api/service"
+    const apiUrl = "https://stylice.onrender.com/api/v1/service"
     const formData = {
       name,
       email,
