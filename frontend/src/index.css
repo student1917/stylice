@@ -1,0 +1,162 @@
+@import "tailwindcss";
+
+:root {
+  font-family: Manrope, Avenir, Helvetica, Arial, Playfair Display, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  --text-color: #000;
+  --heading-color: ;
+  --font-name: "Manrope", sans-serif;
+
+  color-scheme: light dark; 
+  --bg-color: #fff;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  --hero-gradient: linear-gradient(
+    89.61deg,
+    #422A3C 55.75%,
+    rgba(66, 42, 60, 0.85) 66.03%,
+    rgba(66, 42, 60, 0.8) 75.96%,
+    rgba(66, 42, 60, 0.31) 84.81%,
+    rgba(66, 42, 60, 0) 99.7%
+  );
+
+ 
+
+}
+
+a {
+  font-weight: 500;
+  color: #000;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #535bf2;
+}
+
+body {
+  margin: 0;
+
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+h4 {
+  font-family: 'Playfair Display', serif;
+  font-size: 22px;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+  color: #f7e5c1;
+  font-family: 'Playfair Display', serif;
+}
+
+h2{
+  font-family: 'Playfair Display', serif;
+  font-size: 45px;
+
+}
+
+button {
+
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: var(--bg-color);
+  }
+}
+
+@media only screen and (max-width:992px) {
+  h1 {
+    font-size: 2.5rem;
+  }
+}
+
+@media only screen and (max-width:768px) {
+  h2 {
+    font-size: 36px;
+  }
+
+  h4 {
+    font-size: 0.9rem;
+  }
+
+  h3 {
+    font-size: 1rem;
+  }
+
+}
+
+@media only screen and (max-width:576px) {
+  h2 {
+    font-size: 24px;
+  }
+}
+
+
+.font-display {
+  font-family: 'Playfair Display', serif;
+}
+
+
+.dark {
+  --background: oklch(0.13 0.028 261.692);
+  --foreground: oklch(0.985 0.002 247.839);
+  --card: oklch(0.21 0.034 264.665);
+  --card-foreground: oklch(0.985 0.002 247.839);
+  --popover: oklch(0.21 0.034 264.665);
+  --popover-foreground: oklch(0.985 0.002 247.839);
+  --primary: oklch(0.928 0.006 264.531);
+  --primary-foreground: oklch(0.21 0.034 264.665);
+  --secondary: oklch(0.278 0.033 256.848);
+  --secondary-foreground: oklch(0.985 0.002 247.839);
+  --muted: oklch(0.278 0.033 256.848);
+  --muted-foreground: oklch(0.707 0.022 261.325);
+  --accent: oklch(0.278 0.033 256.848);
+  --accent-foreground: oklch(0.985 0.002 247.839);
+  --destructive: oklch(0.704 0.191 22.216);
+  --border: oklch(1 0 0 / 10%);
+  --input: oklch(1 0 0 / 15%);
+  --ring: oklch(0.551 0.027 264.364);
+  --chart-1: oklch(0.488 0.243 264.376);
+  --chart-2: oklch(0.696 0.17 162.48);
+  --chart-3: oklch(0.769 0.188 70.08);
+  --chart-4: oklch(0.627 0.265 303.9);
+  --chart-5: oklch(0.645 0.246 16.439);
+  --sidebar: oklch(0.21 0.034 264.665);
+  --sidebar-foreground: oklch(0.985 0.002 247.839);
+  --sidebar-primary: oklch(0.488 0.243 264.376);
+  --sidebar-primary-foreground: oklch(0.985 0.002 247.839);
+  --sidebar-accent: oklch(0.278 0.033 256.848);
+  --sidebar-accent-foreground: oklch(0.985 0.002 247.839);
+  --sidebar-border: oklch(1 0 0 / 10%);
+  --sidebar-ring: oklch(0.551 0.027 264.364);
+
+}
+
+.rc-slider-handle:focus {
+  outline: none !important;
+  /* box-shadow: none !important; */
+  box-shadow: 0 0 0 4px #BA7894 !important;
+}
