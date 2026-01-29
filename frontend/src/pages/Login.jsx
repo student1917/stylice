@@ -16,7 +16,7 @@ const Login = () => {
               <img src={logo} alt="" />
             </Link>
           </div>
-          {/* logo end*/} */}
+          {/* logo end*/} 
     </div>
     <div id='container' className="w-[80%] grid grid-cols-1 md:grid-cols-2 mx-auto my-16 gap-12 flex justify-center">
       <div id="content__container" className='flex flex-col space-y-4 xl:space-y-8 justify-center content-center'>
